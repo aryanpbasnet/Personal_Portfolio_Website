@@ -32,9 +32,6 @@ No frameworks — built from scratch for full control and understanding.
 
 ---
 
-
----
-
 ## Deployment
 
 The website is deployed as a static site and optimized for fast load times.  

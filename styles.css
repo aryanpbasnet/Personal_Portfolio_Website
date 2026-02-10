@@ -192,7 +192,7 @@ nav a:hover {
 
     #modeToggle {
       position: fixed;
-      top: 20px;
+      top: 16px;
       right: 20px;
       z-index: 1100;
       background: transparent;
@@ -201,6 +201,9 @@ nav a:hover {
       color: var(--primary);
       user-select: none;
       transition: transform 0.25s ease, opacity 0.25s ease;
+      display: flex;
+      align-items: center;
+      line-height: 1;
     }
 
     #modeToggle:hover {

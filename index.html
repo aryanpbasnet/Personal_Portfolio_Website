@@ -4,245 +4,505 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aryan Basnet | Portfolio</title>
-  <meta name="description" content="Developer, designer, and problem solver navigating the digital frontier" />
-  <meta name="keywords" content="Aryan Basnet, Portfolio, Web Developer, Programmer, Creative, Designer, HTML CSS JS, JavaScript Portfolio, Cyber World" />
+
+  <!-- ── Primary SEO ── -->
+  <title>Aryan Basnet | Full-Stack Developer & Designer — Bharatpur, Nepal</title>
+  <meta name="description" content="Aryan Basnet is a full-stack developer, graphic designer, and ML enthusiast from Bharatpur, Nepal. Specializing in web apps, Android development, and intelligent systems." />
+  <meta name="keywords" content="Aryan Basnet, Full Stack Developer Nepal, Web Developer Bharatpur, Android Developer Nepal, Machine Learning Nepal, Portfolio, Python Developer, Java Developer, Graphic Designer Nepal, 3D Artist Blender" />
   <meta name="author" content="Aryan Basnet" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://aryanbasnet.com.np/" />
 
+  <!-- ── Open Graph ── -->
+  <meta property="og:title" content="Aryan Basnet | Full-Stack Developer & Designer" />
+  <meta property="og:description" content="Building at the intersection of code, design & intelligence. Full-stack developer and ML enthusiast from Nepal." />
+  <meta property="og:image" content="https://aryanbasnet.com.np/assets/images/og.png" />
+  <meta property="og:url" content="https://aryanbasnet.com.np/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Aryan Basnet Portfolio" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- ── Twitter Card ── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Aryan Basnet | Full-Stack Developer & Designer" />
+  <meta name="twitter:description" content="Building at the intersection of code, design & intelligence." />
+  <meta name="twitter:image" content="https://aryanbasnet.com.np/assets/images/og.png" />
+
+  <!-- ── Structured Data (JSON-LD) ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Aryan Basnet",
+    "url": "https://aryanbasnet.com.np",
+    "jobTitle": "Full-Stack Developer & Designer",
+    "description": "Full-stack developer, graphic designer, and ML enthusiast from Bharatpur, Nepal.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bharatpur",
+      "addressCountry": "NP"
+    },
+    "sameAs": [
+      "https://github.com/aryanpbasnet",
+      "https://www.linkedin.com/in/aryan-pratap-basnet-515998377/",
+      "https://www.instagram.com/0_oryan/"
+    ],
+    "knowsAbout": ["Web Development", "Machine Learning", "Android Development", "Graphic Design", "3D Modeling"],
+    "alumniOf": {
+      "@type": "Organization",
+      "name": "Bharatpur, Nepal"
+    }
+  }
+  </script>
+
+  <!-- ── Favicons ── -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 
-  <meta property="og:title" content="Aryan Basnet | Portfolio" />
-  <meta property="og:description" content="Developer, designer, and problem solver navigating the digital frontier" />
-  <meta property="og:image" content="https://aryanbasnet.com.np/assets/images/og.png" />
-  <meta property="og:url" content="https://aryanbasnet.com.np/" />
-  <meta property="og:type" content="website" />
+  <!-- ── Fonts ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@300;400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Aryan Basnet | Portfolio" />
-  <meta name="twitter:description" content="Developer, designer, and problem solver navigating the digital frontier" />
-  <meta name="twitter:image" content="https://aryanbasnet.com.np/assets/images/og.png" />
-
-  <link href="https://api.fontshare.com/v2/css?f[]=halfomania@400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ── Libraries ── -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css">
-  <link rel="stylesheet" href="styles.min.css">
 
+  <link rel="stylesheet" href="styles.min.css">
 </head>
 <body class="dark">
 
+  <!-- ── SCROLL PROGRESS ── -->
   <div id="scroll-progress"></div>
-  
+
+  <!-- ── CUSTOM CURSOR ── -->
   <div class="cursor" id="cursor"></div>
-  
-  <nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-    <button id="modeToggle" aria-label="Toggle dark/light mode" style="background:none; border:none; cursor:pointer; font-size: 1.5rem;">
-      ☀︎
-    </button>
+  <div class="cursor-trail" id="cursor-trail"></div>
+
+  <!-- ── PRELOADER ── -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-logo">AB</div>
+      <div class="preloader-bar"><div class="preloader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════
+       NAV
+       ════════════════════════════════ -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo" aria-label="Aryan Basnet home">AB</a>
+
+    <div class="nav-links" id="nav-links">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+
+    <div class="nav-right">
+      <button id="modeToggle" aria-label="Toggle dark/light mode">
+        <span class="toggle-icon">☀︎</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </nav>
 
-  <header>
-    <h1>Hi, I am Aryan Basnet</h1>
-    <h2><span id="typed-role"></span><span class="cursor-blink"></span></h2>
-    <div class="scroll-down">⇣ Scroll Down</div>
+  <!-- Mobile Overlay -->
+  <div class="mobile-menu-overlay" id="mobileOverlay"></div>
+
+  <!-- ════════════════════════════════
+       HERO
+       ════════════════════════════════ -->
+  <header id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-noise"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge" data-aos="fade-down" data-aos-duration="800">
+        <span class="badge-dot"></span>
+        Available for opportunities
+      </div>
+
+      <h1 class="hero-name" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+        <span class="name-line">Aryan</span>
+        <span class="name-line italic-serif">Basnet</span>
+      </h1>
+
+      <div class="hero-role" data-aos="fade-up" data-aos-duration="900" data-aos-delay="280">
+        <span class="role-prefix">I'm a </span><span id="typed-role"></span><span class="cursor-blink"></span>
+      </div>
+
+      <p class="hero-tagline" data-aos="fade-up" data-aos-duration="900" data-aos-delay="380">
+        Building at the intersection of code, design &amp; intelligence —<br>
+        crafting experiences that are as thoughtful as they are functional.
+      </p>
+
+      <div class="hero-ctas" data-aos="fade-up" data-aos-duration="900" data-aos-delay="480">
+        <a href="#projects" class="btn btn-primary">
+          <span>View My Work</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="assets/Aryan_Basnet_CV.pdf" class="btn btn-ghost" download>
+          Download CV <i class="fas fa-arrow-down"></i>
+        </a>
+      </div>
+
+      <!-- Mini social strip -->
+      <div class="hero-socials" data-aos="fade-up" data-aos-duration="700" data-aos-delay="600">
+        <a href="https://github.com/aryanpbasnet" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/aryan-pratap-basnet-515998377/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/0_oryan/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <div class="social-line"></div>
+      </div>
+    </div>
+
+    <div class="hero-deco-number" id="hero-deco-text"></div>
+
+    <div class="scroll-indicator" data-aos="fade-up" data-aos-duration="600" data-aos-delay="900">
+      <div class="scroll-line"></div>
+      <span>scroll</span>
+    </div>
   </header>
 
-  <section id="about" class="section about-skills" data-aos="fade-up" data-aos-duration="1000">
-    <div class="about-text" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-      <h2>About Me</h2>
-      <p>I'm Aryan Basnet, a full-stack developer and designer with a passion for building intelligent applications. My work spans machine learning models, Android development, and modern web applications, all crafted with attention to both technical excellence and user experience. I thrive at the intersection of code and creativity, whether I'm training classification algorithms, developing mobile apps, or designing 3D assets in Blender. Every project is an opportunity to solve complex problems with elegant solutions.</p>
-      <a href="assets/Aryan_Basnet_CV.pdf" class="btn" download>Download CV</a>
+  <!-- ════════════════════════════════
+       STATS STRIP
+       ════════════════════════════════ -->
+  <div class="stats-strip" data-aos="fade-up" data-aos-duration="800">
+    <div class="stat-item">
+      <span class="stat-number" data-count="6">0</span><span class="stat-suffix">+</span>
+      <span class="stat-label">Projects Shipped</span>
     </div>
-    
-    <div class="skills-list" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-      <h2>Currently Focusing On</h2>
-      <div class="skills-icons">
-        <i class="devicon-html5-plain colored skill-icon" data-title="HTML5"></i>
-        <i class="devicon-css3-plain colored skill-icon" data-title="CSS3"></i>
-        <i class="devicon-javascript-plain colored skill-icon" data-title="JavaScript"></i>
-        <i class="devicon-java-plain colored skill-icon" data-title="Java"></i>
-        <i class="devicon-python-plain colored skill-icon" data-title="Python"></i>
-        <i class="devicon-android-plain colored skill-icon" data-title="Android Studio"></i>
-        <i class="devicon-jupyter-plain colored skill-icon" data-title="Jupyter"></i>
-        <i class="devicon-illustrator-plain colored skill-icon" data-title="Adobe Illustrator"></i>
-        <i class="devicon-blender-original colored skill-icon" data-title="Blender"></i>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-number" data-count="5">0</span><span class="stat-suffix">+</span>
+      <span class="stat-label">Tech Stacks</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-number" data-count="3">0</span><span class="stat-suffix">+</span>
+      <span class="stat-label">Years Building</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-number" data-count="100">0</span><span class="stat-suffix">%</span>
+      <span class="stat-label">Passion Driven</span>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════
+       ABOUT
+       ════════════════════════════════ -->
+  <section id="about" class="section">
+    <div class="section-label" data-aos="fade-right" data-aos-duration="700">01 — About</div>
+
+    <div class="about-grid">
+      <div class="about-text" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+        <h2 class="section-heading">Who I Am</h2>
+        <p>I'm a full-stack developer and designer with a passion for building intelligent applications. My work spans machine learning models, Android development, and modern web applications — all crafted with attention to both technical excellence and user experience.</p>
+        <p>I thrive at the intersection of code and creativity, whether I'm training classification algorithms, developing mobile apps, or designing 3D assets in Blender. Every project is an opportunity to solve complex problems with elegant solutions.</p>
+        <p>Based in <strong>Bharatpur, Nepal</strong> — open to remote opportunities worldwide.</p>
+        <div class="about-ctas">
+          <a href="assets/Aryan_Basnet_CV.pdf" class="btn btn-primary" download>Download CV <i class="fas fa-arrow-down"></i></a>
+          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+        </div>
+      </div>
+
+      <div class="about-right" data-aos="fade-up" data-aos-duration="900" data-aos-delay="250">
+        <div class="skills-panel">
+          <h3 class="skills-heading">Currently Focusing On</h3>
+          <div class="skills-icons">
+            <div class="skill-item" data-title="HTML5"><i class="devicon-html5-plain colored skill-icon"></i></div>
+            <div class="skill-item" data-title="CSS3"><i class="devicon-css3-plain colored skill-icon"></i></div>
+            <div class="skill-item" data-title="JavaScript"><i class="devicon-javascript-plain colored skill-icon"></i></div>
+            <div class="skill-item" data-title="Java"><i class="devicon-java-plain colored skill-icon"></i></div>
+            <div class="skill-item" data-title="Python"><i class="devicon-python-plain colored skill-icon"></i></div>
+            <div class="skill-item" data-title="Android"><i class="devicon-android-plain colored skill-icon"></i></div>
+            <div class="skill-item" data-title="Jupyter"><i class="devicon-jupyter-plain colored skill-icon"></i></div>
+            <div class="skill-item" data-title="Illustrator"><i class="devicon-illustrator-plain colored skill-icon"></i></div>
+            <div class="skill-item" data-title="Blender"><i class="devicon-blender-original colored skill-icon"></i></div>
+          </div>
+        </div>
+
+        <!-- What I do cards -->
+        <div class="service-pills">
+          <div class="service-pill">
+            <i class="fas fa-code"></i>
+            <span>Full-Stack Dev</span>
+          </div>
+          <div class="service-pill">
+            <i class="fas fa-mobile-alt"></i>
+            <span>Android Apps</span>
+          </div>
+          <div class="service-pill">
+            <i class="fas fa-brain"></i>
+            <span>ML Models</span>
+          </div>
+          <div class="service-pill">
+            <i class="fas fa-palette"></i>
+            <span>UI/UX Design</span>
+          </div>
+          <div class="service-pill">
+            <i class="fas fa-cube"></i>
+            <span>3D / Blender</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="projects" class="section projects" data-aos="fade-up" data-aos-duration="1000">
-    <h2 data-aos="fade-up">My Projects</h2>
+  <!-- ════════════════════════════════
+       EXPERIENCE / TIMELINE
+       ════════════════════════════════ -->
+  <section id="experience" class="section section-alt">
+    <div class="section-label" data-aos="fade-right" data-aos-duration="700">02 — Journey</div>
+    <h2 class="section-heading" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Education &amp; Growth</h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-year">2023 — 2024</div>
+          <h3 class="timeline-title">Bsc (HONS) Computer Systems Engineering</h3>
+          <p class="timeline-desc">Studied AI/ML, database systems (Oracle & MongoDB), and software engineering at an advanced level. Built full-stack web apps and Android applications as part of coursework and personal projects.</p>
+          <div class="timeline-tags">
+            <span>Web Dev</span><span>Android</span><span>AI/ML</span><span>Databases</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-year">2021 — 2023</div>
+          <h3 class="timeline-title">BTEC HND in Computing (Software Engineering)</h3>
+          <p class="timeline-desc">Covered the full software development lifecycle, web development, networking, and programming fundamentals. Gained solid hands-on experience shipping real projects from concept to deployment.</p>
+          <div class="timeline-tags">
+            <span>Web Dev</span><span>Android</span><span>SDLC</span><span>Databases</span><span>Networking</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-year">2021 — 2022</div>
+          <h3 class="timeline-title">Self-Taught: Design & 3D Art</h3>
+          <p class="timeline-desc">Dove deep into graphic design, UI/UX principles, and 3D modeling with Blender. Built a strong foundation in visual communication and Adobe Illustrator.</p>
+          <div class="timeline-tags">
+            <span>Blender</span><span>Illustrator</span><span>UI Design</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-year">2020 — 2021</div>
+          <h3 class="timeline-title">First Lines of Code</h3>
+          <p class="timeline-desc">Started the coding journey with HTML, CSS, and C#. Built first projects and realized the power of combining logic with creativity to solve real-world problems.</p>
+          <div class="timeline-tags">
+            <span>C#</span><span>HTML/CSS</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════
+       PROJECTS
+       ════════════════════════════════ -->
+  <section id="projects" class="section">
+    <div class="section-label" data-aos="fade-right" data-aos-duration="700">03 — Projects</div>
+    <div class="projects-header">
+      <h2 class="section-heading" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Selected Work</h2>
+      <p class="section-subtext" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">Hover to explore · tap on mobile</p>
+    </div>
+
     <div class="project-grid">
-      
+
       <div class="project-card-wrapper" data-aos="fade-up" data-aos-delay="100">
-        <div class="project-card">
+        <div class="project-card"><div class="card-shine"></div>
           <div class="card-front">
-            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" 
-                 alt="Fetal Health Classifier Dashboard" 
-                 class="project-image">
+            <div class="card-number">01</div>
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Fetal Health Classifier machine learning project" class="project-image" loading="lazy">
+            <div class="card-gradient"></div>
             <div class="card-content">
               <h3 class="project-title">Fetal Health Classifier</h3>
-              <p class="project-description">Machine learning model to classify fetal health using real-world medical data.</p>
+              <p class="project-description">ML model to classify fetal health using real-world medical data.</p>
               <div class="tech-stack">
                 <span class="tech-badge">Python</span>
                 <span class="tech-badge">Jupyter</span>
+                <span class="tech-badge">SVM</span>
               </div>
             </div>
+            <div class="card-hint">Hover to see details ↗</div>
           </div>
           <div class="card-back">
-            <h4>Project Details</h4>
-            <p>Developed a classification model using various ML algorithms including Random Forest and SVM to predict fetal health conditions. Achieved high accuracy through feature engineering and hyperparameter tuning with cross-validation.</p>
-            <a href="https://github.com/aryanpbasnet/Fetal-Health-Classification" target="_blank" class="github-link">
-              <i class="fab fa-github"></i>
-              View on GitHub
-            </a>
+            <div class="card-back-inner">
+              <div class="card-back-icon"><i class="fas fa-heartbeat"></i></div>
+              <h4>Fetal Health Classifier</h4>
+              <p>Classification model using Random Forest and SVM to predict fetal health conditions. Achieved high accuracy through feature engineering and hyperparameter tuning with cross-validation.</p>
+              <a href="https://github.com/aryanpbasnet/Fetal-Health-Classification" target="_blank" rel="noopener" class="github-link">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card-wrapper" data-aos="fade-up" data-aos-delay="150">
+        <div class="project-card"><div class="card-shine"></div>
+          <div class="card-front">
+            <div class="card-number">02</div>
+            <img src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&h=400&fit=crop" alt="Personal portfolio website project" class="project-image" loading="lazy">
+            <div class="card-gradient"></div>
+            <div class="card-content">
+              <h3 class="project-title">Portfolio Website</h3>
+              <p class="project-description">Interactive, minimalistic portfolio with custom animations.</p>
+              <div class="tech-stack">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">JS</span>
+              </div>
+            </div>
+            <div class="card-hint">Hover to see details ↗</div>
+          </div>
+          <div class="card-back">
+            <div class="card-back-inner">
+              <div class="card-back-icon"><i class="fas fa-laptop-code"></i></div>
+              <h4>Portfolio Website</h4>
+              <p>Built from scratch with vanilla JavaScript. Features custom cursor, dark/light mode, scroll animations, and responsive design. Focuses on clean aesthetics and UX.</p>
+              <a href="https://github.com/aryanpbasnet/Personal_Portfolio_Website" target="_blank" rel="noopener" class="github-link">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="project-card-wrapper" data-aos="fade-up" data-aos-delay="200">
-        <div class="project-card">
+        <div class="project-card"><div class="card-shine"></div>
           <div class="card-front">
-            <img src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&h=400&fit=crop" 
-                 alt="Portfolio Website Design" 
-                 class="project-image">
-            <div class="card-content">
-              <h3 class="project-title">Portfolio Website</h3>
-              <p class="project-description">Interactive, minimalistic portfolio with custom animations and modern design principles.</p>
-              <div class="tech-stack">
-                <span class="tech-badge">HTML5</span>
-                <span class="tech-badge">CSS3</span>
-                <span class="tech-badge">JavaScript</span>
-              </div>
-            </div>
-          </div>
-          <div class="card-back">
-            <h4>Project Details</h4>
-            <p>Built from scratch with vanilla JavaScript, featuring custom cursor effects, smooth scroll animations, dark/light mode toggle, and responsive design. Focuses on clean aesthetics and user experience.</p>
-            <a href="https://github.com/aryanpbasnet/Personal_Portfolio_Website" target="_blank" class="github-link">
-              <i class="fab fa-github"></i>
-              View on GitHub
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-card-wrapper" data-aos="fade-up" data-aos-delay="300">
-        <div class="project-card">
-          <div class="card-front">
-            <img src="https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?w=600&h=400&fit=crop" 
-                 alt="SuitCase App" 
-                 class="project-image">
+            <div class="card-number">03</div>
+            <img src="https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?w=600&h=400&fit=crop" alt="SuitCase Android shopping list app" class="project-image" loading="lazy">
+            <div class="card-gradient"></div>
             <div class="card-content">
               <h3 class="project-title">SuitCase App</h3>
-              <p class="project-description">Android shopping list management application to organize and track items efficiently.</p>
+              <p class="project-description">Android shopping list management app to organize items.</p>
               <div class="tech-stack">
                 <span class="tech-badge">Java</span>
-                <span class="tech-badge">Android Studio</span>
-                <span class="tech-badge">SQLite Database</span>
+                <span class="tech-badge">Android</span>
+                <span class="tech-badge">SQLite</span>
               </div>
             </div>
+            <div class="card-hint">Hover to see details ↗</div>
           </div>
           <div class="card-back">
-            <h4>Project Details</h4>
-            <p>Simple and intuitive Android app for managing shopping lists. Features include item addition/deletion, categorization, and a clean user interface built with Java in Android Studio.</p>
-            <a href="https://github.com/aryanpbasnet/SuitCase_App" target="_blank" class="github-link">
-              <i class="fab fa-github"></i>
-              View on GitHub
-            </a>
+            <div class="card-back-inner">
+              <div class="card-back-icon"><i class="fas fa-mobile-alt"></i></div>
+              <h4>SuitCase App</h4>
+              <p>Intuitive Android app for managing shopping lists. Features item addition/deletion, categorization, and a clean UI built with Java in Android Studio with a local SQLite database.</p>
+              <a href="https://github.com/aryanpbasnet/SuitCase_App" target="_blank" rel="noopener" class="github-link">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="project-card-wrapper" data-aos="fade-up" data-aos-delay="400">
-        <div class="project-card">
+      <div class="project-card-wrapper" data-aos="fade-up" data-aos-delay="250">
+        <div class="project-card"><div class="card-shine"></div>
           <div class="card-front">
-            <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop" 
-                 alt="FunOlympic Web Application" 
-                 class="project-image">
+            <div class="card-number">04</div>
+            <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop" alt="FunOlympic web platform project" class="project-image" loading="lazy">
+            <div class="card-gradient"></div>
             <div class="card-content">
               <h3 class="project-title">FunOlympic</h3>
-              <p class="project-description">Olympic-themed web platform with user authentication, broadcast selection, and admin management system.</p>
+              <p class="project-description">Olympic-themed web platform with user auth and admin panel.</p>
               <div class="tech-stack">
                 <span class="tech-badge">PHP</span>
                 <span class="tech-badge">JavaScript</span>
                 <span class="tech-badge">CSS</span>
-                <span class="tech-badge">HTML</span>
               </div>
             </div>
+            <div class="card-hint">Hover to see details ↗</div>
           </div>
           <div class="card-back">
-            <h4>Project Details</h4>
-            <p>Full-stack web application featuring role-based authentication for users and administrators. Includes secure registration system, broadcast selection interface, and comprehensive admin panel for user management. Built with PHP backend and dynamic JavaScript frontend.</p>
-            <a href="https://github.com/aryanpbasnet/FunOlympic" target="_blank" class="github-link">
-              <i class="fab fa-github"></i>
-              View on GitHub
-            </a>
+            <div class="card-back-inner">
+              <div class="card-back-icon"><i class="fas fa-trophy"></i></div>
+              <h4>FunOlympic</h4>
+              <p>Full-stack web app with role-based auth for users and admins. Includes secure registration, broadcast selection interface, and a comprehensive admin panel with PHP backend.</p>
+              <a href="https://github.com/aryanpbasnet/FunOlympic" target="_blank" rel="noopener" class="github-link">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="project-card-wrapper" data-aos="fade-up" data-aos-delay="300">
-        <div class="project-card">
+        <div class="project-card"><div class="card-shine"></div>
           <div class="card-front">
-            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop" 
-                 alt="Simple EMS" 
-                 class="project-image">
+            <div class="card-number">05</div>
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop" alt="Employee Management System project" class="project-image" loading="lazy">
+            <div class="card-gradient"></div>
             <div class="card-content">
-              <h3 class="project-title">Employee Management System</h3>
-              <p class="project-description">Comprehensive employee management system with C# backend and modern web interface.</p>
+              <h3 class="project-title">Employee Management</h3>
+              <p class="project-description">Comprehensive EMS with C# backend and modern web interface.</p>
               <div class="tech-stack">
-                <span class="tech-badge">HTML</span>
                 <span class="tech-badge">C#</span>
-                <span class="tech-badge">CSS</span>
-                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">ASP.NET</span>
+                <span class="tech-badge">HTML/CSS</span>
               </div>
             </div>
+            <div class="card-hint">Hover to see details ↗</div>
           </div>
-
           <div class="card-back">
-            <h4>Project Details</h4>
-            <p>Full-featured employee management platform built with C# and ASP.NET. Includes employee records management, attendance tracking, payroll integration, and role-based access control with a responsive web interface.</p>
-            <a href="https://github.com/aryanpbasnet/Simple-Employee-Management-System" target="_blank" class="github-link">
-              <i class="fab fa-github"></i>
-              View on GitHub
-            </a>
+            <div class="card-back-inner">
+              <div class="card-back-icon"><i class="fas fa-users-cog"></i></div>
+              <h4>Employee Management</h4>
+              <p>Full-featured EMS with C# and ASP.NET. Covers employee records, attendance tracking, payroll integration, and role-based access control with a responsive web interface.</p>
+              <a href="https://github.com/aryanpbasnet/Simple-Employee-Management-System" target="_blank" rel="noopener" class="github-link">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="project-card-wrapper" data-aos="fade-up" data-aos-delay="400">
-        <div class="project-card">
-
+      <div class="project-card-wrapper" data-aos="fade-up" data-aos-delay="350">
+        <div class="project-card"><div class="card-shine"></div>
           <div class="card-front">
-            <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&h=400&fit=crop" 
-                 alt="Chitwan Mother Nature Resort Website" 
-                 class="project-image">
+            <div class="card-number">06</div>
+            <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=600&h=400&fit=crop" alt="Chitwan Nature Resort website" class="project-image" loading="lazy">
+            <div class="card-gradient"></div>
             <div class="card-content">
-              <h3 class="project-title">Chitwan Mother Nature Resort</h3>
-              <p class="project-description">Static website for Chitwan Mother Nature Resort showcasing accommodations and natural attractions.</p>
+              <h3 class="project-title">Chitwan Nature Resort</h3>
+              <p class="project-description">Static website for a resort in Chitwan with modern design.</p>
               <div class="tech-stack">
                 <span class="tech-badge">HTML</span>
                 <span class="tech-badge">CSS</span>
               </div>
             </div>
+            <div class="card-hint">Hover to see details ↗</div>
           </div>
-
           <div class="card-back">
-            <h4>Project Details</h4>
-            <p>Clean and responsive website built with HTML and CSS for a resort in Chitwan. Features gallery showcase, accommodation details, and contact information with modern design aesthetics.</p>
-            <a href="https://github.com/aryanpbasnet/Website_for_Chitwan_Mothernature_Resort" target="_blank" class="github-link">
-              <i class="fab fa-github"></i>
-              View on GitHub
-            </a>
+            <div class="card-back-inner">
+              <div class="card-back-icon"><i class="fas fa-tree"></i></div>
+              <h4>Chitwan Nature Resort</h4>
+              <p>Clean and responsive website for a resort in Chitwan. Features gallery showcase, accommodation details, and contact information with modern design aesthetics.</p>
+              <a href="https://github.com/aryanpbasnet/Website_for_Chitwan_Mothernature_Resort" target="_blank" rel="noopener" class="github-link">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -250,40 +510,114 @@
     </div>
   </section>
 
-  <section id="contact" class="section contact" data-aos="fade-up" data-aos-duration="1000">
-    <h2 data-aos="fade-up">Contact Me</h2>
-    <form class="contact-form" id="contact-form">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-      <p id="form-status"></p>
-    </form>
+  <!-- ════════════════════════════════
+       CONTACT
+       ════════════════════════════════ -->
+  <section id="contact" class="section section-alt">
+    <div class="section-label" data-aos="fade-right" data-aos-duration="700">04 — Contact</div>
+
+    <div class="contact-grid">
+      <div class="contact-left" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+        <h2 class="section-heading">Let's Build<br><span class="italic-serif">Something</span><br>Together</h2>
+        <p class="contact-desc">Have a project in mind, want to collaborate, or just want to say hello? My inbox is always open — let's talk.</p>
+
+        <div class="contact-details">
+          <div class="contact-detail">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <span class="contact-detail-label">Location</span>
+              <span>Bharatpur, Nepal</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <span class="contact-detail-label">GitHub</span>
+              <a href="https://github.com/aryanpbasnet" target="_blank" rel="noopener">github.com/aryanpbasnet</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <span class="contact-detail-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/aryan-pratap-basnet-515998377/" target="_blank" rel="noopener">Aryan Pratap Basnet</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-right" data-aos="fade-up" data-aos-duration="900" data-aos-delay="250">
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" name="name" id="input-name" placeholder=" " required autocomplete="name" />
+              <label for="input-name">Your Name</label>
+              <span class="input-line"></span>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" id="input-email" placeholder=" " required autocomplete="email" />
+              <label for="input-email">Your Email</label>
+              <span class="input-line"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" name="subject" id="input-subject" placeholder=" " />
+            <label for="input-subject">Subject</label>
+            <span class="input-line"></span>
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="input-message" rows="5" placeholder=" " required></textarea>
+            <label for="input-message">Your Message</label>
+            <span class="input-line"></span>
+          </div>
+          <button type="submit" class="btn btn-primary submit-btn">
+            <span class="btn-text">Send Message</span>
+            <i class="fas fa-paper-plane btn-icon"></i>
+          </button>
+          <p id="form-status"></p>
+        </form>
+      </div>
+    </div>
   </section>
 
+  <!-- ════════════════════════════════
+       FOOTER
+       ════════════════════════════════ -->
   <footer>
-    <p>Connect with me on</p>
-    <div class="social-links">
-      <a href="https://www.linkedin.com/in/aryan-pratap-basnet-515998377/" target="_blank" aria-label="LinkedIn">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="https://www.instagram.com/0_oryan/?hl=en" target="_blank" aria-label="Instagram">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://www.facebook.com/aryanbasnet654" target="_blank" aria-label="Facebook">
-        <i class="fab fa-facebook"></i>
-      </a>
-      <a href="https://github.com/aryanpbasnet" target="_blank" aria-label="GitHub">
-        <i class="fab fa-github"></i>
-      </a>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-logo">AB</div>
+        <p class="footer-tagline">Building things that matter.</p>
+      </div>
+
+      <div class="footer-mid">
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/aryan-pratap-basnet-515998377/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/0_oryan/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/aryanbasnet654" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://github.com/aryanpbasnet" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">© <span id="copyright-year"></span> Aryan Basnet. All rights reserved.</p>
+        <p class="footer-made">Designed &amp; built with ♥ in Nepal</p>
+      </div>
     </div>
-    <p class="copyright">
-      © <span id="copyright-year"></span> Aryan Basnet. All rights reserved.
-    </p>
   </footer>
 
-  <button onclick="topFunction()" id="topBtn" title="Go to top">⇡</button>
+  <!-- Back to top -->
+  <button onclick="topFunction()" id="topBtn" title="Go to top" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
 
+  <!-- ── Scripts ── -->
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="scripts.min.js"></script>
